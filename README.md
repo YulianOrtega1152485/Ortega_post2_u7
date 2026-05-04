@@ -25,3 +25,9 @@ Se implementó la lectura de teclas mediante INT 16h, mostrando el scan code y e
 Se accedió directamente al segmento B800h para escribir caracteres en pantalla con diferentes atributos de color sin utilizar interrupciones del BIOS.
 
 ![Checkpoint 2](capturas/checkpoint2.png)
+
+## 3: Relleno de pantalla con REP STOSW
+
+Se utilizó la instrucción REP STOSW para llenar toda la pantalla con un atributo de color y posteriormente mostrar un mensaje centrado.
+
+![Checkpoint 3](capturas/checkpoint3.png)
