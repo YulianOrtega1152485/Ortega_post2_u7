@@ -11,3 +11,11 @@ Implementación de programas en ensamblador x86 que utilizan INT 16h para la lec
 ## Tecnologías
 - NASM
 - DOSBox
+
+## Evidencias
+
+## 1: Lectura de teclado con INT 16h
+
+Se implementó la lectura de teclas mediante INT 16h, mostrando el scan code y el código ASCII de cada tecla presionada hasta detectar la tecla ESC.
+
+![Checkpoint 1](capturas/checkpoint1.png)
