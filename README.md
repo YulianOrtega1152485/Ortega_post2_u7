@@ -31,3 +31,10 @@ Se accedió directamente al segmento B800h para escribir caracteres en pantalla 
 Se utilizó la instrucción REP STOSW para llenar toda la pantalla con un atributo de color y posteriormente mostrar un mensaje centrado.
 
 ![Checkpoint 3](capturas/checkpoint3.png)
+
+## 4: Mini editor con INT 16h y B800h
+
+Se implementó un editor básico que captura caracteres con INT 16h y los muestra directamente en pantalla mediante acceso a B800h.
+
+![Checkpoint 4](capturas/checkpoint4.png)
+
